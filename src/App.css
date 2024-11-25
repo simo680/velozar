@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap");
+
+@font-face {
+  font-family: "ABeeZee";
+  src: url(./assets/fonts/ABeeZee/ABeeZee-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ABeeZee";
+  src: url(./assets/fonts/ABeeZee/ABeeZee-Italic.ttf) format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #f4f9e2;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1440px;
+  box-sizing: border-box;
+}
+
+/* .blue_main_text {
+  color: #22356f;
+  font-size: 47px;
+}
+
+.blue_second_text {
+  font-size: 24px;
+  color: #22356f;
+  height: 100px;
+}
+
+.white_main_text {
+  color: white;
+  font-size: 36px;
+}
+
+.white_second_text {
+  color: white;
+  font-size: 24px;
+} */
