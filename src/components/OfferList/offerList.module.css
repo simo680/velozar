@@ -1,5 +1,6 @@
-.offerlist_wrapper {
+.offer-list__items {
+    list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    height: 480px;
 }
+

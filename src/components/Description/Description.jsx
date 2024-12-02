@@ -1,16 +1,18 @@
-import style from "../Description/description.module.css";
+import s from "../Description/description.module.css";
 
-function Description(props) {
-  const { isMain, title, text, classStyle } = props;
-
+function Description({ isMain, title, text, classStyle }) {
   return (
-    <div className={style.description_wrapper}>
-      {{ isMain } ? (
-        <h1 className={classStyle.blue_main}>{title}</h1>
+    <div className="description">
+      {isMain ? (
+        <h1 className={classStyle["mainTitle"]}>{title}</h1>
       ) : (
-        <h2 className={classStyle.white_main}>{title}</h2>
+        <h2 className={classStyle["subTitle"]}>{title}</h2>
       )}
-      <p className={isMain ? classStyle.blue_second : classStyle.white_second}>
+      <p
+        className={
+          isMain ? classStyle["mainText"] : classStyle["secondaryText"]
+        }
+      >
         {text}
       </p>
     </div>

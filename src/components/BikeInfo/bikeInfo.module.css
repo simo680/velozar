@@ -1,7 +1,16 @@
-.Bikeinfo_wrapper {
+.bike-info {
   text-align: center;
   justify-content: space-between;
   align-items: center;
   display: flex;
   height: 800px;
+  background-color: white;
 }
+
+.bike-info__img-bikes {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  object-position: center; 
+}
+

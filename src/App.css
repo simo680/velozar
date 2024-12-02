@@ -1,38 +1,66 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap");
 
-@font-face {
-  font-family: "ABeeZee";
-  src: url(./assets/fonts/ABeeZee/ABeeZee-Regular.ttf) format("truetype");
-  font-weight: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "ABeeZee";
-  src: url(./assets/fonts/ABeeZee/ABeeZee-Italic.ttf) format("truetype");
-  font-weight: normal;
-  font-display: swap;
-}
-
-body {
-  background-color: #f4f9e2;
-  margin: 0 auto;
+* {
+  margin: 0;
   padding: 0;
-  max-width: 1440px;
   box-sizing: border-box;
 }
 
-/* .blue_main_text {
-  color: #22356f;
-  font-size: 47px;
+body {
+  font-family: Arial;
+  font-style: italic;
+  scroll-behavior: smooth;
+  background-color: #f4f9e2;
 }
 
-.blue_second_text {
+h1 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 32px;
+  font-style: italic;
+}
+
+p {
   font-size: 24px;
-  color: #22356f;
-  height: 100px;
 }
 
+.main-title {
+  color: #22356f;
+  font-size: 46px;
+  line-height: normal;
+}
+
+.main-text {
+  font-size: 24px;
+  font-style: normal;
+  line-height: 42.48px;
+  color: #22356f;
+  align-items: center;
+}
+
+.sub-title {
+  color: white;
+  font-style: italic;
+}
+
+.secondary-text {
+  font-size: 24px;
+  color: white;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+/* 
 .white_main_text {
   color: white;
   font-size: 36px;

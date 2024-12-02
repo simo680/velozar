@@ -1,5 +1,5 @@
-import OfferItem from "../OfferItem/OfferItem";
-import style from "./offerList.module.css";
+import OfferItem from "../OfferItem/OfferItem.jsx";
+import s from "./offerList.module.css";
 
 function OfferList() {
   let data = [
@@ -9,10 +9,14 @@ function OfferList() {
   ];
 
   return (
-    <div className={style.offerlist_wrapper}>
-      {data.map((elem) => (
-        <OfferItem key={elem.id} title={elem.title} color={elem.color} />
-      ))}
+    <div className={s["offer-list"]}>
+      <ul className={s["offer-list__items"]}>
+        {data.map((elem) => (
+          <li key={elem.id} className={s["offer-list__item"]}>
+            <OfferItem title={elem.title} color={elem.color} />
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

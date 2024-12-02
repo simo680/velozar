@@ -1,11 +1,12 @@
-import style from "./offerItem.module.css";
+import s from "./offerItem.module.css";
 
 function OfferItem(props) {
   const { title, color } = props;
 
   return (
-    <div className={style.offer_item} style={{ backgroundColor: color }}>
-      <h2 className="white_main_text">{title}</h2>
+    <div id="offer" className={s["offer-item"]} style={{ backgroundColor: color }}>
+      <div className={s["offer-item__line"]}></div>
+      <h3 className={s["offer-item__title"]}>{title}</h3>
     </div>
   );
 }

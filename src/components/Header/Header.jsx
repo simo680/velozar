@@ -1,35 +1,20 @@
-import Description from "../Description/Description";
 import { ReactComponent as LogoSvg } from "../../assets/icons/logo.svg";
-import dinoImg from "../../assets/img/dino.png";
-import style from "./header.module.css";
+import { Link } from "react-scroll";
+import s from "./header.module.css";
 
 function Header() {
   return (
-    <div className={style.header}>
-      <div className={style.header_wrapper}>
+    <header className={s.header}>
+      <nav className={s.header__menu}>
         <LogoSvg />
-        <div className={style.menu_wrapper}>
-          <p>О нас</p>
-          <p>Услуги</p>
-          <p>Аренда</p>
-        </div>
-        <button className={style.contact_btn}>Связаться</button>
-      </div>
-      <div className={style.header_title_wrapper}>
-        <Description
-          isMain={true}
-          title={"Веломастерская “Велозар”"}
-          classStyle={{
-            blue_main: "blue_main_text",
-            blue_second: "blue_second_text",
-          }}
-          text={
-            "Мы, мастера веломастерской «Велозар», как раз те самые счастливые люди, которые смогли превратить свое увлечение и хобби в профессию. Мы сами любим кататься и хотим чтобы Ваш двухколесный друг приносил Вам только радость и удовольствие от езды."
-          }
-        />
-        <img src={dinoImg} alt="dinosaur" />
-      </div>
-    </div>
+        <ul className={s["header__links-list"]}>
+          <li className={s["header__links-list-item"]}><Link to="about" spy={true} smooth={true}>О нас</Link></li>
+          <li className={s["header__links-list-item"]}><Link to="offer" spy={true} smooth={true}>Услуги</Link></li>
+          <li className={s["header__links-list-item"]}><Link to="rent" spy={true} smooth={true}>Аренда</Link></li>
+        </ul>
+        <button className={s["header__contact-btn"]}>Связаться</button>
+      </nav>
+    </header>
   );
 }
 

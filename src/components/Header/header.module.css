@@ -1,31 +1,31 @@
 .header {
   background: #f4f9e2;
-  height: 840px;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-.header_wrapper {
-  height: 140px;
-  display: flex;
+.header__menu {
+  display: grid;
+  grid-template-columns: 118px 311px 150px;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
+  font-style: normal;
+  height: 155px;
 }
 
-.menu_wrapper {
+.header__links-list {
+  margin-bottom: 13px;
   display: flex;
-  gap: 68px;
+  gap: 69px;
+  list-style: none;
 }
 
-.contact_btn {
+.header__contact-btn {
   width: 150px;
   height: 50px;
   border-radius: 50px;
   border: none;
+  color: white;
+  font-style: italic;
   background: #f9b640;
-}
-
-.header_title_wrapper {
-  margin-left: 100px;
-  margin-top: 100px;
-  display: flex;
-  justify-content: space-around;
 }

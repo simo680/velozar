@@ -1,6 +1,18 @@
-.offer_item {
+.offer-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  gap: 30px;
+  padding: 70px;
+  height: 480px;
+}
+
+.offer-item__line {
+  width: 340px;
+  border: 1px solid white;
+}
+
+.offer-item__title {
+  color: white;
+  font-weight: 400;
+  width: 228px;
 }

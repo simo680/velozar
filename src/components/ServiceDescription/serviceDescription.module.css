@@ -1,0 +1,15 @@
+.service-description {
+  height: 604px;
+  background-color: #62d0df;
+  display: flex;
+  align-items: center;
+  line-height: 35.47px;
+}
+
+.service-description__text {
+  padding: 0 60px 0  71px;
+}
+
+.service-description__img-bikes {
+  max-width: 637px;
+}
