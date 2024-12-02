@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/velozar/static/css/main.ecde5f55.css",
-    "main.js": "/velozar/static/js/main.2a516d15.js",
+    "main.css": "/velozar/static/css/main.486fe67d.css",
+    "main.js": "/velozar/static/js/main.ba45e31e.js",
     "static/media/bikes.png": "/velozar/static/media/bikes.e65c6c34089965f5cc5f.png",
     "static/media/red-bike.png": "/velozar/static/media/red-bike.b47213065a1c479ebc07.png",
-    "static/media/logo.svg": "/velozar/static/media/logo.beb9f4478f2c21308c2d5d7da276cf48.svg",
+    "static/media/logo.svg": "/velozar/static/media/logo.88620a0a5fda66bb0ac565495fdd8374.svg",
     "static/media/dino.png": "/velozar/static/media/dino.c8b434d1b32b86ecd7f6.png",
     "index.html": "/velozar/index.html",
-    "main.ecde5f55.css.map": "/velozar/static/css/main.ecde5f55.css.map",
-    "main.2a516d15.js.map": "/velozar/static/js/main.2a516d15.js.map"
+    "main.486fe67d.css.map": "/velozar/static/css/main.486fe67d.css.map",
+    "main.ba45e31e.js.map": "/velozar/static/js/main.ba45e31e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecde5f55.css",
-    "static/js/main.2a516d15.js"
+    "static/css/main.486fe67d.css",
+    "static/js/main.ba45e31e.js"
   ]
 }
