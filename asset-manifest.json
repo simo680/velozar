@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/simo680/velozar/static/css/main.ecde5f55.css",
+    "main.js": "/simo680/velozar/static/js/main.e8cc7dfe.js",
+    "static/media/bikes.png": "/simo680/velozar/static/media/bikes.e65c6c34089965f5cc5f.png",
+    "static/media/red-bike.png": "/simo680/velozar/static/media/red-bike.b47213065a1c479ebc07.png",
+    "static/media/logo.svg": "/simo680/velozar/static/media/logo.beb9f4478f2c21308c2d5d7da276cf48.svg",
+    "static/media/dino.png": "/simo680/velozar/static/media/dino.c8b434d1b32b86ecd7f6.png",
+    "index.html": "/simo680/velozar/index.html",
+    "main.ecde5f55.css.map": "/simo680/velozar/static/css/main.ecde5f55.css.map",
+    "main.e8cc7dfe.js.map": "/simo680/velozar/static/js/main.e8cc7dfe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecde5f55.css",
+    "static/js/main.e8cc7dfe.js"
+  ]
+}
